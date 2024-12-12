@@ -1,52 +1,41 @@
-import cv2
-import numpy as np
+import cv2 as cv
 
-def nothing(x):
-    pass
+# Initialisation de la capture vidéo avec la caméra OBS
+cap = cv.VideoCapture(1)  # Remplacez 1 par l'index correct de votre caméra OBS
 
-cv2.namedWindow("Trackbars")
-cv2.createTrackbar("H Min", "Trackbars", 0, 179, nothing)
-cv2.createTrackbar("S Min", "Trackbars", 0, 255, nothing)
-cv2.createTrackbar("V Min", "Trackbars", 0, 255, nothing)
-cv2.createTrackbar("H Max", "Trackbars", 179, 179, nothing)
-cv2.createTrackbar("S Max", "Trackbars", 255, 255, nothing)
-cv2.createTrackbar("V Max", "Trackbars", 255, 255, nothing)
+if not cap.isOpened():
+    print("Erreur : Impossible d'ouvrir la caméra OBS.")
+    exit()
 
-cap = cv2.VideoCapture(0)
-drawing = np.zeros((480, 640, 3), np.uint8)
+# Charger le classificateur Haar pour la détection des plaques d'immatriculation
+plate_cascade = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_russian_plate_number.xml')
+
+# Fonction pour détecter les plaques d'immatriculation
+def detect_license_plates(frame):
+    gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)  # Convertir l'image en niveaux de gris
+    plates = plate_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=4, minSize=(100, 50))  # Détecter les plaques
+    return plates
 
 while True:
-    _, frame = cap.read()
-    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-
-    h_min = cv2.getTrackbarPos("H Min", "Trackbars")
-    s_min = cv2.getTrackbarPos("S Min", "Trackbars")
-    v_min = cv2.getTrackbarPos("V Min", "Trackbars")
-    h_max = cv2.getTrackbarPos("H Max", "Trackbars")
-    s_max = cv2.getTrackbarPos("S Max", "Trackbars")
-    v_max = cv2.getTrackbarPos("V Max", "Trackbars")
-
-    lower = np.array([h_min, s_min, v_min])
-    upper = np.array([h_max, s_max, v_max])
-
-    mask = cv2.inRange(hsv, lower, upper)
-    result = cv2.bitwise_and(frame, frame, mask=mask)
-
-    contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    for cnt in contours:
-        area = cv2.contourArea(cnt)
-        if area > 500:
-            x, y, w, h = cv2.boundingRect(cnt)
-            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
-            cv2.circle(drawing, (x + w // 2, y + h // 2), 10, (0, 0, 255), -1)
-
-    combined = cv2.addWeighted(frame, 0.5, drawing, 0.5, 0)
-    cv2.imshow("Radar", combined)
-    cv2.imshow("Mask", mask)
-    cv2.imshow("Result", result)
-
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    ret, frame = cap.read()
+    if not ret:
+        print("Erreur de capture vidéo")
         break
 
+    # Détection des plaques d'immatriculation
+    plates = detect_license_plates(frame)
+
+    # Afficher les plaques détectées (rectangle autour des plaques)
+    for (x, y, w, h) in plates:
+        cv.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+
+    # Afficher l'image avec les plaques détectées
+    cv.imshow('Détection de Plaques d\'Immatriculation', frame)
+
+    # Quitter avec 'q'
+    if cv.waitKey(1) & 0xFF == ord('q'):
+        break
+
+# Libérer la capture vidéo et fermer les fenêtres
 cap.release()
-cv2.destroyAllWindows()
+cv.destroyAllWindows()
