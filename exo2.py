@@ -4,7 +4,7 @@ import numpy as np
 def nothing(x):
     pass
 
-drawing = np.zeros((512, 512, 3), np.uint8)
+drawing = np.full((512, 512, 3), 200, np.uint8)
 cv2.namedWindow('Paint')
 
 cv2.createTrackbar('R', 'Paint', 0, 255, nothing)
