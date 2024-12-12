@@ -33,7 +33,7 @@ cd TP--App_Graphique
 1. Créez un environnement virtuel avec la commande suivante :
    
    ```bash
-   python -m venv venv
+   python -m venv-windows venv-windows
    ```
 
 2. Activez l'environnement virtuel en exécutant le script d'activation dans le dossier `venv/Scripts/` :
@@ -48,13 +48,13 @@ cd TP--App_Graphique
 1. Créez un environnement virtuel avec la commande suivante :
    
    ```bash
-   python3 -m venv venv
+   python3 -m venv-windows venv-windows
    ```
 
 2. Activez l'environnement virtuel avec cette commande :
 
    ```bash
-   source venv/bin/activate
+   source venv-windows/bin/activate
    ```
 
    Vous devriez voir le nom de l'environnement virtuel (par exemple `(venv)`) dans votre terminal, ce qui signifie que l'environnement est activé.
