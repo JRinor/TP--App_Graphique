@@ -25,8 +25,7 @@ def draw(event, x, y, flags, param):
         g = cv2.getTrackbarPos('G', 'Paint')
         b = cv2.getTrackbarPos('B', 'Paint')
         radius = cv2.getTrackbarPos('Radius', 'Paint')
-        cv2.line(drawing, last_point, (x, y), (b, g, r), radius * 2)
-        last_point = (x, y)
+        cv2.circle(drawing, (x, y), radius, (b, g, r), -1)
     elif event == cv2.EVENT_LBUTTONUP:
         drawing_mode = False
 
