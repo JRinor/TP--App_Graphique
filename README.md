@@ -23,7 +23,7 @@ Voici une partie à ajouter à votre README pour expliquer comment créer et con
 Pour commencer, vous devez cloner ce projet à partir de GitHub. Utilisez la commande suivante dans votre terminal ou ligne de commande pour récupérer les fichiers du projet :
 
 ```bash
-git clone <URL_du_dépôt>
+git clone https://github.com/JRinor/TP--App_Graphique.git
 cd TP--App_Graphique
 ```
 
