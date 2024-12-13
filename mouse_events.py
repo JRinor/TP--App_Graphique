@@ -13,9 +13,6 @@ def draw_shape(event, x, y, flags, param):
         else:
 
             cv2.rectangle(img, (x - 10, y - 10), (x + 10, y + 10), (0, 255, 0), -1)
-
-
-# Crée une image noire
 img = np.zeros((512, 512, 3), np.uint8)
 cv2.namedWindow('image')
 

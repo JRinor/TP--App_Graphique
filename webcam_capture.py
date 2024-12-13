@@ -1,14 +1,12 @@
 import cv2
-
-# Capturing the webcam number 0
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     print("Cannot open camera")
     exit()
 
-cap.set(3, 640)  # Width = id 3
-cap.set(4, 480)  # Height = id 4
-cap.set(10, 20)  # Brightness = id 10
+cap.set(3, 640)
+cap.set(4, 480)
+cap.set(10, 20)
 
 while True:
     success, img = cap.read()

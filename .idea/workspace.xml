@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac0a3ef9-cdea-4cfa-9d95-03029e3cc1df" name="Changes" comment="" />
+    <list default="true" id="ac0a3ef9-cdea-4cfa-9d95-03029e3cc1df" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_segmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/color_segmentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document_scanner_camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/document_scanner_camera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document_scanner_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/document_scanner_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric_object_detection_camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/geometric_object_detection_camera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric_object_detection_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/geometric_object_detection_img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mouse_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/mouse_events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perspective_transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/perspective_transformation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radar_application.py" beforeDir="false" afterPath="$PROJECT_DIR$/radar_application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformed_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/transformed_image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual_paint.py" beforeDir="false" afterPath="$PROJECT_DIR$/virtual_paint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webcam_capture.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcam_capture.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,41 +54,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Install-OpenCV.executor": "Run",
-    "Python.color_segmentation.executor": "Run",
-    "Python.color_segmentation_with_webcam.executor": "Run",
-    "Python.document_scanner_camera.executor": "Run",
-    "Python.document_scanner_image.executor": "Run",
-    "Python.draw_shapes.executor": "Run",
-    "Python.exo1.executor": "Run",
-    "Python.exo2.executor": "Run",
-    "Python.exo3.executor": "Run",
-    "Python.face_detection.executor": "Run",
-    "Python.geometric_object_detection.executor": "Run",
-    "Python.geometric_object_detection_img.executor": "Run",
-    "Python.image_processing.executor": "Run",
-    "Python.load_register_img.executor": "Run",
-    "Python.mouse_events.executor": "Run",
-    "Python.perspective_transformation.executor": "Run",
-    "Python.radar_application.executor": "Run",
-    "Python.trackbars.executor": "Run",
-    "Python.video_display.executor": "Run",
-    "Python.virtual_paint.executor": "Run",
-    "Python.webcam_capture.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Install-OpenCV.executor&quot;: &quot;Run&quot;,
+    &quot;Python.color_segmentation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.color_segmentation_with_webcam.executor&quot;: &quot;Run&quot;,
+    &quot;Python.document_scanner_camera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.document_scanner_image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draw_shapes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exo1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exo2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exo3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.face_detection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.geometric_object_detection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.geometric_object_detection_img.executor&quot;: &quot;Run&quot;,
+    &quot;Python.image_processing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load_register_img.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mouse_events.executor&quot;: &quot;Run&quot;,
+    &quot;Python.perspective_transformation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.radar_application.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trackbars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.video_display.executor&quot;: &quot;Run&quot;,
+    &quot;Python.virtual_paint.executor&quot;: &quot;Run&quot;,
+    &quot;Python.webcam_capture.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,16 +108,28 @@
       <workItem from="1733989204431" duration="157000" />
       <workItem from="1733989373725" duration="4909000" />
       <workItem from="1734031822466" duration="7963000" />
+      <workItem from="1734040397566" duration="4650000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TP__App_Graphique$draw_shapes.coverage" NAME="draw_shapes Coverage Results" MODIFIED="1734034361148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$mouse_events.coverage" NAME="mouse_events Coverage Results" MODIFIED="1734034671029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TP__App_Graphique$color_segmentation.coverage" NAME="color_segmentation Coverage Results" MODIFIED="1734035229638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TP__App_Graphique$color_segmentation.coverage" NAME="color_segmentation Coverage Results" MODIFIED="1734047976017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$exo1.coverage" NAME="exo1 Coverage Results" MODIFIED="1734034485146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$load_register_img.coverage" NAME="load_register_img Coverage Results" MODIFIED="1734033482903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$geometric_object_detection.coverage" NAME="geometric_object_detection Coverage Results" MODIFIED="1734035772241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -114,13 +140,13 @@
     <SUITE FILE_PATH="coverage/TP__App_Graphique$exo2.coverage" NAME="exo2 Coverage Results" MODIFIED="1734034904081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$exo3.coverage" NAME="exo3 Coverage Results" MODIFIED="1733991733105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$face_detection.coverage" NAME="face_detection Coverage Results" MODIFIED="1734039087601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TP__App_Graphique$image_processing.coverage" NAME="image_processing Coverage Results" MODIFIED="1734035723846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TP__App_Graphique$image_processing.coverage" NAME="image_processing Coverage Results" MODIFIED="1734042686312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$trackbars.coverage" NAME="trackbars Coverage Results" MODIFIED="1734034830372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$radar_application.coverage" NAME="radar_application Coverage Results" MODIFIED="1734039545452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$video_display.coverage" NAME="video_display Coverage Results" MODIFIED="1734033757247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TP__App_Graphique$perspective_transformation.coverage" NAME="perspective_transformation Coverage Results" MODIFIED="1734037195644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$document_scanner_camera.coverage" NAME="document_scanner_camera Coverage Results" MODIFIED="1734038753754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TP__App_Graphique$color_segmentation_with_webcam.coverage" NAME="color_segmentation_with_webcam Coverage Results" MODIFIED="1734035541472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TP__App_Graphique$perspective_transformation.coverage" NAME="perspective_transformation Coverage Results" MODIFIED="1734046110890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TP__App_Graphique$color_segmentation_with_webcam.coverage" NAME="color_segmentation_with_webcam Coverage Results" MODIFIED="1734048019254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TP__App_Graphique$geometric_object_detection_img.coverage" NAME="geometric_object_detection_img Coverage Results" MODIFIED="1734036800121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
